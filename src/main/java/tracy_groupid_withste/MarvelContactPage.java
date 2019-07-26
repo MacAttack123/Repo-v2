@@ -13,8 +13,6 @@ public class MarvelContactPage {
 
 
     public static void main(String[] args) {
-
-
         System.setProperty("webdriver.gecko.driver", "geckodriver");
 
         driver.get("https://marvelapp.com/contact-us");
