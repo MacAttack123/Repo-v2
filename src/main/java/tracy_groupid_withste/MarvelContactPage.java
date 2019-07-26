@@ -11,7 +11,6 @@ public class MarvelContactPage {
     static WebDriver driver = new FirefoxDriver();
     static WebElement element;
 
-
     public static void main(String[] args) {
         System.setProperty("webdriver.gecko.driver", "geckodriver");
 
@@ -26,9 +25,5 @@ public class MarvelContactPage {
         element.sendKeys("Tracy");
 
         //git driver.close();
-
-
     }
-
-
 }
